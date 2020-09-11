@@ -1,1 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>registration form</title>
+	</head>
 
+	<h1 Align="CENTER">REGISTRATION FORM</h1>
+	<style>
+
+		h3{
+			font-family: Arial;
+			font-size: 25pt;
+			font-style: normal;
+			font-weight: bold;
+			color: SlateBlue;
+			text-align: center;
+			text-decoration: underline
+		}
+		input {
+			padding: 4px;
+			margin: 5px;
+		}
+
+		table{
+			font-family: Arial;
+			color: white;
+			font-size: 11pt;
+			font-style: normal;
+			font-weight: bold;
+			text-align: ;
+			background-color: SlateBlue;
+			border-collapse: collapse;
+			border: 2px solid navy
+		}
+		table.inner{
+			border: 0px
+		}
+	</style>
+
+	<body>
+
+		<table align="center" cellpadding="5">
+			<tr>
+				<td>First Name :</td>
+				<td><input type="text" id="name" name="name"></td>
+			</tr>
+			<tr>
+				<td>Last Name :</td>
+				<td><input type="text" id="name" name="name"></td>
+			</tr>
+			<tr>
+				<td>Email Id :</td>
+				<td><input type="emailid" id="emailid" name="name"></td>
+			</tr>
+			<tr>
+				<td>Date of Birth :</td>
+				<td><input type="date" id="DOB" name="name"></td>
+			</tr>
+			<tr>
+				<td>Mobile No :</td>
+				<td><input type="num" id="name" name="mobile no"></td>
+			</tr>
+			<tr>
+				<td>Password :</td>
+				<td><input type="password" id="psd" name="name"></td>
+			</tr>
+			<tr>
+				<td>Re-Enter Password :</td>
+				<td><input type="password" id="psd" name="name"></td>
+			</tr>
+			<tr>
+				<td>Address :</td>
+				<td>
+					<textarea name="ta" rows="5" cols="70"></textarea></td>
+			</tr>
+			<tr>
+				<td>Gender :</td>
+				<td><input type="radio" name="male">Male<input
+					type="radio" name="male">Fe-Male <input
+					type="radio" name="male">Others</td>
+			</tr>
+			<tr>
+				<td>Hobby :</td>
+				<td><input type="checkbox" name="Hobby" value="Reading Books">Reading Books
+					<input type="checkbox" name="Hobby" value="Playing games">Playing games
+					<input type="checkbox" name="Hobby" value="dancing">Dancing</td>
+			</tr>
+			<tr>
+				<td>Image Upload :</td>
+				<td><input type="file" name="fileToUpload" id="fileToUpload"></td>
+			</tr>
+			<tr>
+				<td align="center" colspan="5">
+					<input type="submit" value="Submit">
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
